@@ -7,4 +7,6 @@ Mental Health in Tech Survey: a survey csv found on kaggle.
 
 Mental Health in the Tech Industry: The data is a survey data from Open Source Mental Illness in the form of a sqlite file. The file has three tables: answers, questions,
 survey.
-## Questions to answer with the Data
+## Questions to Answer With the data
+## Communication Protocols
+
