@@ -128,6 +128,9 @@ dmypy.json
 # Pyre type checker
 .pyre/
 
-#Large Datasets
+# Large Datasets
 survey.csv
 mental_health.sqlite
+
+# DS_Store
+.DS_Store
