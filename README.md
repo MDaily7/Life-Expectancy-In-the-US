@@ -25,7 +25,7 @@ broken out by state
 * How likely is someone who works remote to seek out mental health?
 
 ## Communication Protocols
-The team has decided to have two main communication channels. The first one, via Slack channel where we can share information and ask quick questions. Then, via Zoom where the team will meet when needed to review segments and to coordinate procedures and next steps of this project. 
+The team has decided to have two main communication channels. The first one, the team has a chat on Slack channel to share information and ask quick questions. Then, on Zoom, where the team will meet when needed to review segments and to coordinate procedures and next steps of this project. 
 
 
 
