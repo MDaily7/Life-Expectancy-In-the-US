@@ -19,8 +19,9 @@ survey.
 
 * How often people leave their jobs due to mental health?
 
-broken out by gender
-broken out by state
+-broken out by gender
+
+-broken out by state
 
 * How likely is someone who works remote to seek out mental health?
 
