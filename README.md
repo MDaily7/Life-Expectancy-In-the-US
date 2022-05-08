@@ -26,5 +26,7 @@ survey.
 
 * How likely is someone who works remotely to seek out help for their mental health?
 
+* Can we use machine learning to predict if a person will seek out mental health treatment based on various features such as working remotely, gender, age, etc. 
+
 ## Communication Protocols
 The team has decided to have two main communication channels. The first one, the team has a chat on Slack channel to share information and ask quick questions. Then, on Zoom, where the team will meet when needed to review segments and to coordinate procedures and next steps of this project.
