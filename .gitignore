@@ -131,6 +131,10 @@ dmypy.json
 # Large Datasets
 survey.csv
 mental_health.sqlite
-
+Answer.csv
+lite_Survey.csv
+Questions.csv
+OSMI 2021 Mental Health in Tech Survey Results .csv
+OSMI 2020 Mental Health in Tech Survey Results .csv
 # DS_Store
 .DS_Store
