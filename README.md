@@ -10,10 +10,10 @@ Each of us hopes to work in the tech field soon and are interested in health dat
 job searching in the tech field soon and understanding what factors lead to poor mental health may aid in determining what jobs to pursue. 
 
 ## Source Data
-Mental Health in Tech Survey: a survey csv found on kaggle.
+Mental Health in Tech Industry source: https://osmhhelp.org/research
 
-Mental Health in the Tech Industry: The data is a survey data from Open Source Mental Illness in the form of a sqlite file. The file has three tables: answers, questions,
-survey.
+Mental Health in the Tech Industry: The data raw data is from Open Source Mental Illness (OSMI) from 2014, 2016 and 2017. 
+The files are in CSV and have multiple columns, questions and answers.
 
 ## Questions to Answer With the data
 * Which gender seeks out mental health treatment more often in tech?
@@ -30,3 +30,6 @@ survey.
 
 ## Communication Protocols
 The team has decided to have two main communication channels. The first one, the team has a chat on Slack channel to share information and ask quick questions. Then, on Zoom, where the team will meet when needed to review segments and to coordinate procedures and next steps of this project.
+
+## Branches
+In order to work as team, we are using a branch for each team member. 
