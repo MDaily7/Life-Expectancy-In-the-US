@@ -132,7 +132,11 @@ dmypy.json
 survey.csv
 mental_health.sqlite
 2022 County Health Rankings Data - v1.xlsx
-
+Answer.csv
+lite_Survey.csv
+Questions.csv
+OSMI 2021 Mental Health in Tech Survey Results .csv
+OSMI 2020 Mental Health in Tech Survey Results .csv
 # DS_Store
 .DS_Store
 
