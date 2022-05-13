@@ -131,6 +131,8 @@ dmypy.json
 # Large Datasets
 survey.csv
 mental_health.sqlite
+2022 County Health Rankings Data - v1.xlsx
 
 # DS_Store
 .DS_Store
+
