@@ -1,4 +1,4 @@
-# Mental Health in Tech
+# Life Expectancy Based on Ethnicity
 
 ## Team Members
 * Michael Daily 
@@ -6,28 +6,20 @@
 * Angie Corrales
 
 ## Reason for Topic
-Each of us hopes to work in the tech field soon and are interested in health data, so this seemed like a good overlap between those fields. Furthermore, we all plan to be 
-job searching in the tech field soon and understanding what factors lead to poor mental health may aid in determining what jobs to pursue. 
+
 
 ## Source Data
-Mental Health in Tech Industry source: https://osmhhelp.org/research
+County Health Ranking & Roadmaps: https://www.countyhealthrankings.org/
 
-Mental Health in the Tech Industry: The data raw data is from Open Source Mental Illness (OSMI) from 2014, 2016 and 2017. 
-The files are in CSV and have multiple columns, questions and answers.
+County Health Ranking & Roadmaps is a program of the University of Winsconsin Population Health Insitute which provides data with evidence and guidance about factors that affect health. This dataset measures health in the 50 states of the United States. Also, the 2022 County Health Rankings Data is in a xlsx file. The dataset contains seven sheets with outcomes and factors rankings, outcomes and factors sub-rankings, ranked measure data, ranked measure sources and years and additional measure data. 
 
 ## Questions to Answer With the data
-* Which gender seeks out mental health treatment more often in tech?
+* Which ethnicity tends to have the higher life expectancy? 
 
-* How often people leave their jobs due to mental health issues?
+ - Broken out by state
 
-  - Broken out by gender
-
-  - Broken out by state
-
-* How likely is someone who works remotely to seek out help for their mental health?
-
-* Can we use machine learning to predict if a person will seek out mental health treatment based on various features such as working remotely, gender, age, etc. 
-
+* Household income mean by ethnicity.
+  
 ## Communication Protocols
 The team has decided to have two main communication channels. The first one, the team has a chat on Slack channel to share information and ask quick questions. Then, on Zoom, where the team will meet when needed to review segments and to coordinate procedures and next steps of this project.
 
