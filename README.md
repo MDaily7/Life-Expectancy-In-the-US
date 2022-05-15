@@ -28,5 +28,15 @@ County Health Ranking & Roadmaps is a program of the University of Winsconsin Po
 
 ## Exploring the Data
 
-We focus on two tables within the larger dataset, Ranked Measure Data and Additional Measures Data. 
+We focus on two tables within the larger dataset, Ranked Measure Data and Additional Measures Data. We first wanted to see how big our dataset was.
+
+```python
+# display the shape of the dataframes
+print(f' Health Measures has {health_measures_df.shape[0]} rows and {health_measures_df.shape[1]} columns')
+print(f' Additional Measures has {additional_measures_df.shape[0]} rows and {additional_measures_df.shape[1]} columns')
+```
+
+![Datasets Shape](https://myoctocat.com/assets/images/base-octocat.svg)
+
+We also 
 
