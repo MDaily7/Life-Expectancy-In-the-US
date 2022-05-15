@@ -6,7 +6,7 @@
 * Angie Corrales
 
 ### Communication Protocols
-The team has decided to have two main communication channels. The first one, the team has a chat on Slack channel to share information and ask quick questions. Then, on Zoom, where the team will meet when needed to review segments and to coordinate procedures and next steps of this project. We use Github to commit our changes and provide feeback on our teammates work but we also use it for the Projects feature which is acts as our workspace organizer. 
+The team has decided to have two main communication channels. The first one, the team has a chat on Slack channel to share information and ask quick questions. Then, on Zoom, where the team will meet when needed to review segments and to coordinate procedures and next steps of this project. We use Github to commit our changes and provide feeback on our teammates work but we also use it for the Projects feature which acts as our workspace organizer. 
 
 ### Branches
 In order to work as team, we are using a branch for each team member. 
