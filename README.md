@@ -42,4 +42,6 @@ We looked for the best ways to visualize our findings.
 
 <img src="https://github.com/brown-rox20/05022022DataFinalProject/blob/roxane/Images/LE%20by%20Adult%20Obesity.png" width=300 alt="LE by Adult Obesity" />
 
+<img src="https://github.com/brown-rox20/05022022DataFinalProject/blob/roxane/Images/LE%20by%20Smoking.png" width=300 alt="LE by Smoking" />
+
 
