@@ -36,7 +36,7 @@ print(f' Health Measures has {health_measures_df.shape[0]} rows and {health_meas
 print(f' Additional Measures has {additional_measures_df.shape[0]} rows and {additional_measures_df.shape[1]} columns')
 ```
 
-![Datasets Shape](https://myoctocat.com/assets/images/base-octocat.svg)
+![Datasets Shape](https://github.com/brown-rox20/05022022DataFinalProject/blob/roxane/Images/Datasets%20Shape.png)
 
-We also 
+We looked for the best ways to visualize our findings. 
 
