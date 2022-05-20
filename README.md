@@ -21,7 +21,7 @@ We are interested in knowing how health, race, and income factors affect life ex
 ### Source Data
 County Health Ranking & Roadmaps: https://www.countyhealthrankings.org/
 
-County Health Ranking & Roadmaps is a program of the University of Winsconsin Population Health Insitute which provides data with evidence and guidance about factors that affect health. This dataset measures health in the 50 states of the United States. Also, the 2022 County Health Rankings Data is in a xlsx file. The dataset contains seven sheets with outcomes and factors rankings, outcomes and factors sub-rankings, ranked measure data, ranked measure sources and years and additional measure data. 
+County Health Rankings & Roadmaps is a program of the University of Wisconsin Population Health Institute which provides data with evidence and guidance about factors that affect health. This dataset measures health in the 50 states of the United States. Also, the 2022 County Health Rankings Data is in a xlsx file. The dataset contains seven sheets with outcomes and factors rankings, outcomes and factors sub-rankings, ranked measure data, ranked measure sources and years and additional measure data. 
 
 ### Questions to Answer With the data
 * Which ethnicity in each state tends to have the higher life expectancy? 
