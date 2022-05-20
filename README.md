@@ -16,7 +16,7 @@ In order to work as team, we are using a branch for each team member.
 
 ## Project Overview
 ### Reason for Topic
-We are interested in knowing how health, race, and income factors affect life expectancy and which state or county overall has the highest life expectancy. Our hypothesis is that counties with a higher percentage of people who smoke, don't excersise regularly and suffer from obesity will have a lower life expectancy. We also predict that other factors such as high male to female pay gap and low median income will 
+We are interested in knowing how health, race, and income factors affect life expectancy and which state or county overall has the highest life expectancy. Our hypothesis is that counties with a higher percentage of people who smoke, don't excercise regularly and suffer from obesity will have a lower life expectancy. We also predict that other factors such as high male to female pay gap and low median income will 
 
 ### Source Data
 County Health Ranking & Roadmaps: https://www.countyhealthrankings.org/
