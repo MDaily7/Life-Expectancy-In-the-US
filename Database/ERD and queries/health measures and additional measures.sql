@@ -3,8 +3,10 @@
 -- NOTE! If you have used non-SQL datatypes in your design, you will have to change these here.
 
 
-CREATE TABLE "Health_Measures_3_State" (
+CREATE TABLE "health_measures" (
     "State" varchar   NOT NULL,
+    "County" varchar   NOT NULL,
+    "State_County" varchar   NOT NULL,
     "Premature_death" varchar   NOT NULL,
     "Percentage_Fair_or_Poor_Health" varchar   NOT NULL,
     "Average_Number_of_Physically_Unhealthy_Days" varchar   NOT NULL,
@@ -35,17 +37,18 @@ CREATE TABLE "Health_Measures_3_State" (
     "Annual_Average_Violent_Crimes" varchar   NOT NULL,
     "Injury_deaths" varchar   NOT NULL,
     "Air_pollution_particulate_matter_Average_Daily_PM" varchar   NOT NULL,
-    "Drinking_water_violations" varchar   NOT NULL,
     "Percentage_Severe_Housing_Problems" varchar   NOT NULL,
     "Percentage_Drive_Alone_to_Work" varchar   NOT NULL,
-    "Long_commute_driving_alone" varchar   NOT NULL,
-    CONSTRAINT "pk_Health_Measures_3_State" PRIMARY KEY (
-        "State"
+    "Workers_Drive_Alone_to_Work" varchar   NOT NULL,
+    CONSTRAINT "pk_health_measures" PRIMARY KEY (
+        "State_County"
      )
 );
 
-CREATE TABLE "Additional_Health_Measures_4_State" (
+CREATE TABLE "additional_health_measures" (
     "State" varchar   NOT NULL,
+    "County" varchar   NOT NULL,
+    "State_County" varchar   NOT NULL,
     "Life_expectancy" varchar   NOT NULL,
     "Deaths_Premature_age_adjusted_mortality" varchar   NOT NULL,
     "Child_mortality_deaths" varchar   NOT NULL,
@@ -69,7 +72,7 @@ CREATE TABLE "Additional_Health_Measures_4_State" (
     "Gender_pay_gap" varchar   NOT NULL,
     "Median_household_income" varchar   NOT NULL,
     "percentage_Enrolled_in_Free_or_Reduced_Lunch_Children_eligible_for_free_or_reduced_price_lunch" varchar   NOT NULL,
-    "Segregation_index_Residential_segregation_Black/white" varchar   NOT NULL,
+    "Segregation_index_Residential_segregation_Black_and_white" varchar   NOT NULL,
     "percentage_household_income_required_for_childcare_expenses_Childcare_cost_burden" varchar   NOT NULL,
     "Childcare_centers" varchar   NOT NULL,
     "Homicide_Rate" varchar   NOT NULL,
@@ -82,9 +85,12 @@ CREATE TABLE "Additional_Health_Measures_4_State" (
     "percentage_Broadband_Access" varchar   NOT NULL,
     "Population" varchar   NOT NULL,
     "percentage_female" varchar   NOT NULL,
-    "rural_residents" varchar   NOT NULL
+    "rural_residents" varchar   NOT NULL,
+    CONSTRAINT "pk_additional_health_measures" PRIMARY KEY (
+        "State_County"
+     )
 );
 
-ALTER TABLE "Health_Measures_3_State" ADD CONSTRAINT "fk_Health_Measures_3_State_State" FOREIGN KEY("State")
-REFERENCES "Additional_Health_Measures_4_State" ("State");
+ALTER TABLE "health_measures" ADD CONSTRAINT "fk_health_measures_State_County" FOREIGN KEY("State_County")
+REFERENCES "additional_health_measures" ("State_County");
 

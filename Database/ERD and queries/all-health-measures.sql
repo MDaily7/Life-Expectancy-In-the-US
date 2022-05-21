@@ -3,7 +3,7 @@
 -- NOTE! If you have used non-SQL datatypes in your design, you will have to change these here.
 
 
-CREATE TABLE "Health_Measures_1" (
+CREATE TABLE "all_measures" (
     "State" varchar   NOT NULL,
     "County" varchar   NOT NULL,
     "State_County" varchar   NOT NULL,
@@ -37,19 +37,9 @@ CREATE TABLE "Health_Measures_1" (
     "Annual_Average_Violent_Crimes" varchar   NOT NULL,
     "Injury_deaths" varchar   NOT NULL,
     "Air_pollution_particulate_matter_Average_Daily_PM" varchar   NOT NULL,
-    "Drinking_water_violations" varchar   NOT NULL,
     "Percentage_Severe_Housing_Problems" varchar   NOT NULL,
     "Percentage_Drive_Alone_to_Work" varchar   NOT NULL,
-    "Long_commute_driving_alone" varchar   NOT NULL,
-    CONSTRAINT "pk_Health_Measures_1" PRIMARY KEY (
-        "State_County"
-     )
-);
-
-CREATE TABLE "Additional_Health_Measures_2" (
-    "State" varchar   NOT NULL,
-    "County" varchar   NOT NULL,
-    "State_County" varchar   NOT NULL,
+    "Workers_Drive_Alone_to_Work" varchar   NOT NULL,
     "Life_expectancy" varchar   NOT NULL,
     "Deaths_Premature_age_adjusted_mortality" varchar   NOT NULL,
     "Child_mortality_deaths" varchar   NOT NULL,
@@ -73,7 +63,7 @@ CREATE TABLE "Additional_Health_Measures_2" (
     "Gender_pay_gap" varchar   NOT NULL,
     "Median_household_income" varchar   NOT NULL,
     "percentage_Enrolled_in_Free_or_Reduced_Lunch_Children_eligible_for_free_or_reduced_price_lunch" varchar   NOT NULL,
-    "Segregation_index_Residential_segregation_Black/white" varchar   NOT NULL,
+    "Segregation_index_Residential_segregation_Black_and_white" varchar   NOT NULL,
     "percentage_household_income_required_for_childcare_expenses_Childcare_cost_burden" varchar   NOT NULL,
     "Childcare_centers" varchar   NOT NULL,
     "Homicide_Rate" varchar   NOT NULL,
@@ -87,11 +77,8 @@ CREATE TABLE "Additional_Health_Measures_2" (
     "Population" varchar   NOT NULL,
     "percentage_female" varchar   NOT NULL,
     "rural_residents" varchar   NOT NULL,
-    CONSTRAINT "pk_Additional_Health_Measures_2" PRIMARY KEY (
-        "County","State_County"
+    CONSTRAINT "pk_all_measures" PRIMARY KEY (
+        "State_County"
      )
 );
-
-ALTER TABLE "Health_Measures_1" ADD CONSTRAINT "fk_Health_Measures_1_State_County" FOREIGN KEY("State_County")
-REFERENCES "Additional_Health_Measures_2" ("State_County");
 
