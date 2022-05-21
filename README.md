@@ -5,6 +5,7 @@
 * Roxane Brown
 * Angie Corrales
 
+
 ### Google Slides Link
 Download Presentation > https://docs.google.com/presentation/d/10jV_kzB3BMsltjungju_t7-RHRZp5Px8yOZFFJbnPYM/edit#slide=id.g129e9e3480f_0_287
 
@@ -55,9 +56,11 @@ In our two datasets we found there were two sets of headers that made it difficu
 We are using the liner regression and Random Forest Classifier machine learning models. We think the Random Forest Classifier works best for our data that can predict if s person has a healthy life style or not. The liner regression model works best when we look health factors that would affect someones life expectancy. 
 
 ## The Database
+
 The team chose to use sqalchemy in order to connect with our PostgresSQL database.
 
 ![health measures and additional measures](https://user-images.githubusercontent.com/95327338/169605640-1e0e90bd-2bd9-4386-8ada-a7f78104216f.png)
+
 
 
 
