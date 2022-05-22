@@ -53,8 +53,24 @@ In our two datasets we found there were two sets of headers that made it difficu
 
 
 ## Machine Learning Model
-We are using the liner regression and Random Forest Classifier machine learning models. We think the Random Forest Classifier works best for our data that can predict if s person has a healthy life style or not. The liner regression model works best when we look health factors that would affect someones life expectancy. 
-
+### Model Selection
+This project will utilize a supervised machine learning model. The target of the model is life expectancy which is a continuous variable. Therfore, a multiple linear 
+regression model will be used. The primary disadvantage or limit of a linear regression model is that assumes a linear relationship between variables which is rarely true
+in the real world. That being said, using multiple linear regression seeks to minimize this limitation while still retaining the benefits of this model choice. Benefits that
+include simplicity in implementation, efficient to train, relatively simple to interpret, and while the model is prone to overfitting, this can be diminished employing 
+dimensionality reduction techniques (removing multicollinearity as much as possible). 
+### Preprocessing
+Every feature being utilized in the model originally had a multitude of null values; the nulls were replaced with the mean value of the respective features. 
+### Feature Engineering and Selection
+Feature selection is still an ongoing process. Thus far, two methods have been employed. The first method relied heavily on removing multicollinearity between independant 
+features while maintaining correlation to the target variable. The ensuing model used ten features out of the original 69 and had a mean absolute error score of 1.23. The 
+second method used correlation and mutual information feature selection to determine that 15 features would be optimal. Sklearn recursive feature elimination was then used
+to determine which 15 features would be best to use for the model. The resulting 15 feature model had a mean absolute error score of 1.21 a slight improvement over the first
+model. More feature selection options will be explored from this point such as exploring the first method used but with 15 features rather than ten as well as exploring 
+and fine tuning the amount of features with both methods that have been described.
+### Splitting into Training and Testing Sets
+Sklearn train_test_split was used to split the data into training and testing data sets. Currently, the default split is being utilized with 75% of the data in the training
+split and 25% in the test split. This may be explored more later if it seems valuable. 
 ## The Database
 
 The team chose to use sqalchemy in order to connect with our PostgresSQL database.
