@@ -40,13 +40,13 @@ print(f' Health Measures has {health_measures_df.shape[0]} rows and {health_meas
 print(f' Additional Measures has {additional_measures_df.shape[0]} rows and {additional_measures_df.shape[1]} columns')
 ```
 
-<img src="https://github.com/brown-rox20/05022022DataFinalProject/blob/roxane/Images/Datasets%20Shape.png" width=400 alt="Datasets Shape" />
+<img src="https://github.com/brown-rox20/05022022DataFinalProject/blob/main/Images/Datasets%20Shape.png" width=400 alt="Datasets Shape" />
 
 We looked for the best ways to visualize our findings. 
 
-<img src="https://github.com/brown-rox20/05022022DataFinalProject/blob/roxane/Images/LE%20by%20Adult%20Obesity.png" width=450 alt="LE by Adult Obesity" />
+<img src="https://github.com/brown-rox20/05022022DataFinalProject/blob/main/Images/LE%20by%20Adult%20Obesity.png" width=450 alt="LE by Adult Obesity" />
 
-<img src="https://github.com/brown-rox20/05022022DataFinalProject/blob/roxane/Images/LE%20by%20Smoking.png" width=450 alt="LE by Smoking" />
+<img src="https://github.com/brown-rox20/05022022DataFinalProject/blob/main/Images/LE%20by%20Smoking.png" width=450 alt="LE by Smoking" />
 
 ## Cleaning the Data
 In our two datasets we found there were two sets of headers that made it difficult to load into the database. For instance we had a top level column header for smoking, premature death, and low birthrate (among other things) as well and a lower level column header for all the stats pertaining to those topics. In order to fix that we had to create new dataframes with the double column names combine to one. 
