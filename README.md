@@ -62,5 +62,17 @@ The team chose to use sqalchemy in order to connect with our PostgresSQL databas
 ![health measures and additional measures](https://user-images.githubusercontent.com/95327338/169605640-1e0e90bd-2bd9-4386-8ada-a7f78104216f.png)
 
 
+## Dashboard
 
+Our visualizations will be created in Tableau:
+
+https://public.tableau.com/views/LifeExpectancy_16531976712160/Story1?:language=en-US&publish=yes&:display_count=n&:origin=viz_share_link
+
+
+We chose 15 different health factors that had a high correlation to life expectancy to explore through visualizations using scatter plots. Each point on the chart shows the state and county along with the life expectancy and the health factor. We also have a heatmap that displays the average life expectancy in that state. Here is one example of the map. 
+
+<img src="https://public.tableau.com/shared/4B7B9W8P8?:display_count=n&:origin=viz_share_link" width=400 alt="Datasets Shape" />
+
+
+We will embed some of these visualizations to our web page.
 
