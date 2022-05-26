@@ -31,7 +31,7 @@ nav{
 }
 
 .landing{
-    height: 90vh;
+    height: 60vh;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -46,7 +46,7 @@ nav{
 }
 
 .landing h1{
-    margin: 100px;
+    margin: 60px;
     font-size: 50px;
     color: #BED6D8;
 
