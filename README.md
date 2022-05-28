@@ -88,7 +88,7 @@ There are two tables in our database: health_measures and additional_health_meas
 
 ![health measures and additional measures](https://user-images.githubusercontent.com/95327338/169605640-1e0e90bd-2bd9-4386-8ada-a7f78104216f.png)
 
-![image](https://user-images.githubusercontent.com/95327338/170845963-0c0919f1-0351-41a0-8cf5-41745a0ea431.png)
+![image](https://user-images.githubusercontent.com/95327338/170845995-d7b6d387-89da-4a22-b023-be288bbf0f20.png)
 ![image](https://user-images.githubusercontent.com/95327338/170845976-002aa495-067c-4628-b091-7a8811b52bd7.png)
 
 
