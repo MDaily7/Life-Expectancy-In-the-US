@@ -17,7 +17,8 @@ In order to work as team, we are using a branch for each team member.
 
 ## Project Overview
 ### Reason for Topic
-We are interested in knowing how health, race, and income factors affect life expectancy and which state or county overall has the highest life expectancy. Our hypothesis is that counties with a higher percentage of people who smoke, don't excercise regularly and suffer from obesity will have a lower life expectancy. We also predict that other factors such as high male to female pay gap and low median income will 
+Each of us are interested in health data and decided it would be interesting to explore the County Health Rankings data and particularly how the various features presented in 
+the data set relate to life expectancy. 
 
 ### Source Data
 County Health Ranking & Roadmaps: https://www.countyhealthrankings.org/
@@ -25,10 +26,9 @@ County Health Ranking & Roadmaps: https://www.countyhealthrankings.org/
 County Health Rankings & Roadmaps is a program of the University of Wisconsin Population Health Institute which provides data with evidence and guidance about factors that affect health. This dataset measures health in the 50 states of the United States. Also, the 2022 County Health Rankings Data is in a xlsx file. The dataset contains seven sheets with outcomes and factors rankings, outcomes and factors sub-rankings, ranked measure data, ranked measure sources and years and additional measure data. 
 
 ### Questions to Answer With the data
-* Which ethnicity in each state tends to have the higher life expectancy? 
-* How do factors such as smoking, obesity, and physical inactivity affect life expectancy?
-* How does the male to female pay gap affect life expectancy?
-* What is the household income mean by ethnicity and what is it's relation to life expectancy?
+We have approached this data set as though a county health official has asked us to determine what features would be best to fund in order to improve the life expectancy of
+residents of their county. Our aim is to determine which features are most correlated with life expectancy and to utilize machine learning with those selected features in 
+order to predict life expectancy within a county.
 
 ## Exploring the Data
 
@@ -60,17 +60,25 @@ in the real world. That being said, using multiple linear regression seeks to mi
 include simplicity in implementation, efficient to train, relatively simple to interpret, and while the model is prone to overfitting, this can be diminished employing 
 dimensionality reduction techniques (removing multicollinearity as much as possible). 
 ### Preprocessing
-Every feature being utilized in the model originally had a multitude of null values; the nulls were replaced with the mean value of the respective features. 
+Every feature being utilized in the model originally had a multitude of null values; the nulls were replaced with the mean value of the respective features. Furthermore, 
+two outliers with life expectancies exceeding 100 years were removed. 
 ### Feature Engineering and Selection
-Feature selection is still an ongoing process. Thus far, two methods have been employed. The first method relied heavily on removing multicollinearity between independant 
+Two feature selection methods were explored. The first method relied heavily on removing multicollinearity between independant 
 features while maintaining correlation to the target variable. The ensuing model used ten features out of the original 69 and had a mean absolute error score of 1.23. The 
-second method used correlation and mutual information feature selection to determine that 15 features would be optimal. Sklearn recursive feature elimination was then used
-to determine which 15 features would be best to use for the model. The resulting 15 feature model had a mean absolute error score of 1.21 a slight improvement over the first
-model. More feature selection options will be explored from this point such as exploring the first method used but with 15 features rather than ten as well as exploring 
-and fine tuning the amount of features with both methods that have been described.
+second method used correlation and mutual information feature selection to determine that 15 features would be optimal as seen in the images below. Sklearn recursive feature elimination was then used
+to determine which 15 features would be best to use for the model. The resulting 15 feature model has a mean absolute error score of 1.205 a slight improvement over the first
+model. The second method of feature selection consistently performs slightly better than the first even with changes to random states when splitting the data into training and
+testing sets and is therefore the method of feature selection used for the final model. 
+[Correlation Feature Selection Scores]()
+[Mutual Feature Selection Scores]()
 ### Splitting into Training and Testing Sets
 Sklearn train_test_split was used to split the data into training and testing data sets. Currently, the default split is being utilized with 75% of the data in the training
 split and 25% in the test split. This may be explored more later if it seems valuable. 
+### Training the Model
+The model was trained with the sklearn fit method where the scaled feature training split and the target training split were given as parameters. Additional training could
+take place using future County Health Rankings data sets in addition to the one used for this project.
+### Model Performance
+The current r2 score of the training split is 0.686 and the test split r2 score is 0.675. The mean absolute error of the model is 1.205.
 ## The Database
 
 The team chose to use sqalchemy in order to connect with our PostgresSQL database.
