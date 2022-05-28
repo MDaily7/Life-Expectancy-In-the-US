@@ -69,8 +69,8 @@ second method used correlation and mutual information feature selection to deter
 to determine which 15 features would be best to use for the model. The resulting 15 feature model has a mean absolute error score of 1.205 a slight improvement over the first
 model. The second method of feature selection consistently performs slightly better than the first even with changes to random states when splitting the data into training and
 testing sets and is therefore the method of feature selection used for the final model. 
-[Correlation Feature Selection Scores]()
-[Mutual Feature Selection Scores]()
+* [Correlation Feature Selection Scores](https://github.com/brown-rox20/05022022DataFinalProject/blob/main/Images/Correlation_Feature_Selection.png)
+* [Mutual Feature Selection Scores](https://github.com/brown-rox20/05022022DataFinalProject/blob/main/Images/Mutual_Feature_Selection.png)
 ### Splitting into Training and Testing Sets
 Sklearn train_test_split was used to split the data into training and testing data sets. Currently, the default split is being utilized with 75% of the data in the training
 split and 25% in the test split. This may be explored more later if it seems valuable. 
