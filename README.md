@@ -84,7 +84,7 @@ The current r2 score of the training split is 0.686 and the test split r2 score 
 ## The Database
 
 The team chose to use sqalchemy in order to connect with our PostgresSQL database.
-There are two tables in our database: health_measures and additional_health_measures. We created a master table called all_health_measures in order to have integrated the information from both tables into one table.
+There are two tables in our database: health_measures and additional_health_measures. We created a master table called all_health_measures in order to integrate the data from both tables into one table.
 
 ![health measures and additional measures](https://user-images.githubusercontent.com/95327338/169605640-1e0e90bd-2bd9-4386-8ada-a7f78104216f.png)
 
