@@ -9,7 +9,7 @@
 ### Google Slides and Vizualizations Links
 Download Presentation > https://docs.google.com/presentation/d/10jV_kzB3BMsltjungju_t7-RHRZp5Px8yOZFFJbnPYM/edit#slide=id.g129e9e3480f_0_287
 
-APP and Dashsboard: https://stately-mandazi-8226c8.netlify.app
+APP and Dashboard: https://stately-mandazi-8226c8.netlify.app
 
 ### Communication Protocols
 The team has decided to have two main communication channels. The first one, the team has a chat on Slack channel to share information and ask quick questions. Then, on Zoom, where the team will meet when needed to review segments and to coordinate procedures and next steps of this project. We use Github to commit our changes and provide feeback on our teammates work but we also use it for the Projects feature which acts as our workspace organizer. 
