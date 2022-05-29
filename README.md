@@ -55,6 +55,7 @@ In our two datasets we found there were two sets of headers that made it difficu
 
 
 ## Machine Learning Model
+[Linear Regression Model](https://github.com/brown-rox20/05022022DataFinalProject/blob/main/Machine%20Learning%20Model/Life%20Expectancy%20Linear%20Regression%20Model.ipynb)
 ### Model Selection
 This project will utilize a supervised machine learning model. The target of the model is life expectancy which is a continuous variable. Therfore, a multiple linear 
 regression model will be used. The primary disadvantage or limit of a linear regression model is that assumes a linear relationship between variables which is rarely true
