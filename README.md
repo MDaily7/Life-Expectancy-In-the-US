@@ -83,6 +83,11 @@ The model was trained with the sklearn fit method where the scaled feature train
 take place using future County Health Rankings data sets in addition to the one used for this project.
 ### Model Performance
 The current r2 score of the training split is 0.686 and the test split r2 score is 0.675. The mean absolute error of the model is 1.205.
+### Future Statistical Analysis
+This project utilizes a multiple linear regression model to attempt to predict life expectancy utilizing 15 different health factor features. Future statistical analysis might
+include generating simple linear regression models with each of the individual features and obtaining r2 and p-values for each of those models to further confirm the feature's 
+statistically significant relationship to life expectancy or to reject it. Finally, using statsmodels.api or something similar to determine the p-value for each of the 
+coefficients in our current model would be a good step for future phases of the project.  
 ## The Database
 
 The team chose to use sqalchemy in order to connect with our PostgresSQL database.
