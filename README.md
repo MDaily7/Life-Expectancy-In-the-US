@@ -64,7 +64,8 @@ include simplicity in implementation, efficient to train, relatively simple to i
 dimensionality reduction techniques (removing multicollinearity as much as possible). 
 ### Preprocessing
 Every feature being utilized in the model originally had a multitude of null values; the nulls were replaced with the mean value of the respective features. Furthermore, 
-two outliers with life expectancies exceeding 100 years were removed. 
+two outliers with life expectancies exceeding 100 years were removed. Finally, the training and testing splits of the features were scaled with Sklearn Standard
+Scaler. 
 ### Feature Engineering and Selection
 Two feature selection methods were explored. The first method relied heavily on removing multicollinearity between independant 
 features while maintaining correlation to the target variable. The ensuing model used ten features out of the original 69 and had a mean absolute error score of 1.23. The 
